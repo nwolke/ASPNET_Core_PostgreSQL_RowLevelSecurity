@@ -7,7 +7,6 @@ namespace ASPNET_Core_PostgreSQL_RLS.Utility
     {
         public static string GetEnvironmentDBConnectionString(string environment, IConfiguration config)
         {
-            Console.WriteLine(environment);
             switch (environment)
             {
                 case "Staging":

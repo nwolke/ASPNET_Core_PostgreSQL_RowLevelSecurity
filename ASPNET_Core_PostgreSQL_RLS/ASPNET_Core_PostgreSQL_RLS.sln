@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98EE4CA6-D9C7-4DBF-BA04-5967E84B04A7}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASPNET_Core_PostgreSQL_RLS", "src\ASPNET_Core_PostgreSQL_RLS\ASPNET_Core_PostgreSQL_RLS.xproj", "{99DC43BA-4B08-4449-9B51-E21738D7A134}"
