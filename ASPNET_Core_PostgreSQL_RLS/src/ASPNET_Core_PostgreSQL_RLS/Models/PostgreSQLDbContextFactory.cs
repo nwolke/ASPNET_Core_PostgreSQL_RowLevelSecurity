@@ -26,7 +26,7 @@ namespace ASPNET_Core_PostgreSQL_RLS.Models
                 throw new KeyNotFoundException("Environment variable ASPNETCORE_ENVIRONMENT not set");
 
             string envName = env.Value;
-            optionsBuilder.UseNpgsql(ConnStrings.GetEnvironmentDBConnectionString(envName, config));
+            optionsBuilder.UseNpgsql(string.Format(ConnStrings.GetEnvironmentDBConnectionString(envName, config), "migrator", "1212"));
 
             return new PostgreSQLDbContext(optionsBuilder.Options);
         }

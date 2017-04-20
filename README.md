@@ -8,3 +8,5 @@ Unfortunately, there is no easy way to unit or supply an integration test for th
 #### PostgreSQL SETUP
 Follow the instructions at this link to setup a PostgreSQL DB on Windows: https://www.labkey.org/Documentation/wiki-page.view?name=installPostgreSQLWindows
 
+See the following documentation on Row Level Security: https://www.postgresql.org/docs/9.5/static/ddl-rowsecurity.html
+
