@@ -14,5 +14,7 @@ namespace ASPNET_Core_PostgreSQL_RLS.Models
         public string ColumnA { get; set; }
         [Column("columnb")]
         public DateTime ColumnB { get; set; }
+        [Column("rowsecuritycolumn")]
+        public string RowSecurityColumn { get; set; }
     }
 }
