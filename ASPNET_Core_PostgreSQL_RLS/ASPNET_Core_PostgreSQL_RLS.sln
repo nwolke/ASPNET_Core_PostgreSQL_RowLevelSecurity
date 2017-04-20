@@ -1,17 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C95F9E25-3A36-4647-B507-E44279F2F0EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98EE4CA6-D9C7-4DBF-BA04-5967E84B04A7}"
 	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASPNET_Core_PostgreSQL_RLS", "src\ASPNET_Core_PostgreSQL_RLS\ASPNET_Core_PostgreSQL_RLS.xproj", "{99DC43BA-4B08-4449-9B51-E21738D7A134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNET_Core_PostgreSQL_RLS", "src\ASPNET_Core_PostgreSQL_RLS\ASPNET_Core_PostgreSQL_RLS.csproj", "{99DC43BA-4B08-4449-9B51-E21738D7A134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
